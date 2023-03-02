@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel carousel-fade slide " data-bs-ride="carousel">
+            <div class="carousel-inner ">
+                <div data-bs-interval="5000" class="carousel-item active">
+                    <div class="carousel-caption">
+                        <h2>Carro da porsche</h2>
+                    </div>
+                    <img class="d-block w-100" src="./IMAGENS/slide1.png" />
+                </div>
+                <div data-bs-interval="2000" class="carousel-item">
+                    <div class="carousel-caption">
+                        <h2>Ford Branco</h2>
+                    </div>
+                    <img class="d-block w-100" src="./IMAGENS/slide3.png" />
+                </div>
+                <div data-bs-interval="2000" class="carousel-item">
+                    <div class="carousel-caption">
+                        <h2>Carro da BMW</h2>
+                    </div>
+                    <img class="d-block w-100" src="./IMAGENS/slide2.png" />
+                </div>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+        <div class="container grid w-100">
+        <h1>Descrição dos Carros</h1>
+        <div class="row">
+            <div class="col-4">
+                <div class="item">
+                    <div class="card text-bg-dark">
+                        <img src="./IMAGENS/bmw-m240i-racing-2880x1800-4k-15907.jpg"/>
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Marca BMW</h4>
+                            <h5 class="card-subtitle">Modelo M-240, racing</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non soluta commodi quia architecto maxime sit sequi, repudiandae, ipsa</p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em: <time>10/02/2023 às 16:28</time>
+                        </footer>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-4">
+                <div class="item">
+                    <div class="card text-bg-dark">
+                        <img src="./IMAGENS/bmw-m240i-racing-2880x1800-4k-15907.jpg"/>
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Marca BMW</h4>
+                            <h5 class="card-subtitle">Modelo M-240, racing</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non soluta commodi quia architecto maxime sit sequi, repudiandae, ipsa.</p>
+                                        <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em: <time>02/02/2023 às 16:28</time>
+                        </footer>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-4">
+                <div class="item">
+                    <div class="card text-bg-dark">
+                        <img src="./IMAGENS/bmw-m240i-racing-2880x1800-4k-15907.jpg"/>
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Marca BMW</h4>
+                            <h5 class="card-subtitle">Modelo M-240, racing</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non soluta commodi quia architecto maxime sit sequi, repudiandae, ipsa.</p>
+                        <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em: <time>02/02/2023 às 16:28</time>
+                        </footer>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>
